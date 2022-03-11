@@ -1,0 +1,133 @@
+*{
+	box-sizing: border-box;
+
+	/*background-color: red!important;*/
+}
+body{
+	
+	/*height: 100vh;*/
+	width: 100vw;
+	overflow: hidden;
+	font-family: "Lato",sans-serif;
+	font-weight: 700;
+	display: flex;
+	align-item: center;
+	justify-content: center;
+	color: #555;
+	background-color: #ebe0d2;	
+}
+.login-div{
+	z-index: -1;
+	
+	background: url(../copy.jpg);
+	position: absolute;
+	top: 50%;
+	transform: translate(0, -50%);
+	margin: auto 0px;
+	width: 380px;
+	height: 540px;
+	padding: 0px 35px 35px 35px;
+	border: 2px solid #fbba60;
+	border-radius: 40px;
+	background-color: #eef;
+	box-shadow: 13px 13px 20px #cbced1, -13px -13px 20px #fff;
+}
+.logo{
+	background: url(../logo.jpg);
+	overflow: hidden;
+	margin: 30px auto 0;
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	/*margin: 0 auto;*/
+	box-shadow: 0 0 2px #5f5f5f,
+	0 0 0 5px #fbba60,8px 8px 15px #a7aaaf,
+	-8px -8px 15px #fff;
+
+}
+.title{
+	text-align: center;
+	font-size: 28px;
+	padding-top: 24px;
+	color: #c8272d;
+	letter-spacing: 0.5px;
+}
+.sub-title{
+	text-align: center;
+	fontsize: 15px;
+	color: #1667b1;
+	padding-top: 7px;
+	letter-spacing: 3px;
+}
+.fields{
+	width: 100%;
+	padding: 45px 5px 5px 5px;
+}
+.fields input{
+	border: none;
+	outline: none;
+	background: none;
+	size: 25px;
+	font-size: 18px;
+	color: #555;
+	padding: 20px 10px 20px 5px;
+}
+.username,.password{
+	margin-bottom: 20px;
+	border-radius: 25px;
+	box-shadow: inset 8px 8px 8px #cbced1,
+	inset -8px -8px 8px #fff;
+}
+
+.fields svg{
+	height: 22px;
+	margin: 0 10px -3px 25px;
+}
+.signin-button{
+	outline: none;
+	/*border:none ;*/
+	cursor: pointer;
+	width: 80%;
+	height: 60px;
+	border-radius: 30px;
+	font-size: 20px;
+	font-weight: 700;
+	font-family: "Lato",sans-serif;
+	color: #fff;
+	justify-content: center;
+	border: 2px solid #fbba60;
+	text-align: center;
+	background-color: #02c8db;
+	box-shadow: 13px 13px 20px #b1b1b1;
+	transition: all 0.5s;
+	margin-top: 35px;
+}
+.signin-button:hover{
+	background-color: #50e5b9;
+}
+.signin-button:active{
+	background-color: #88ef9c;
+}
+.box{
+	margin-top: -15px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 5px 20px;
+	text-align: center;	
+	color: #fff;
+	border: 2px solid #fbba60;
+	background-color: #c8272d;
+	border-radius: 30px;
+	display: table;
+	box-shadow: -13px -13px 20px #fff;
+}
+.links{
+	text-align: center;	
+	padding: 0;
+	margin-bottom: 20px;
+}
+.links a{
+	text-decoration: none;
+	color: #c8272d;
+	font-size: 15px;
+}
